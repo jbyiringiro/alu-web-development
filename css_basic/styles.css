@@ -1,0 +1,49 @@
+body main {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+}
+header {
+  background-color: #696969;
+}
+header ul a {
+  color: white;
+}
+main {
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  flex-direction: row;
+  overflow-y: auto;
+}
+.logo{
+  font-size: 3rem; 
+  color: #ffcc00;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  background-color: #696969;
+  color: #ffffff;
+}
+footer p{
+  padding-top: 30px;
+  color: #ffffff;
+}
